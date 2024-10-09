@@ -22,29 +22,5 @@ namespace Le_Quoc_Binh_xoso.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("99")]
-        public int numberMax {
-            get {
-                return ((int)(this["numberMax"]));
-            }
-            set {
-                this["numberMax"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
-        public int numberMin {
-            get {
-                return ((int)(this["numberMin"]));
-            }
-            set {
-                this["numberMin"] = value;
-            }
-        }
     }
 }
