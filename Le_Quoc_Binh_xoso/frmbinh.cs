@@ -87,7 +87,6 @@ namespace Le_Quoc_Binh_xoso
             // Quay số Giải Đặc Biệt
             isSpinningGDB = true; // Bắt đầu quay số cho Giải Đặc Biệt
             StartSpinning(kqgdb);
-
             int GDB = randomnumber(100000, 999999);
             await Task.Delay(7000); // Đợi 15 giây
             isSpinningGDB = false; // Dừng quay số cho Giải Đặc Biệt
@@ -104,10 +103,9 @@ namespace Le_Quoc_Binh_xoso
             lbl_ngaythang.Text = String.Format("{0:dd/MM/yyyy}", dt);
 
         }
-
         private async void StartSpinning(Label lb)
         {
-            while (isSpinningG8 || isSpinningGDB || isSpinningG7 || isSpinningG61 ||isSpinningG62||isSpinningG63 || isSpinningG5 ||isSpinningG4 || isSpinningG3||isSpinningG2||isSpinningG1) // Quay nếu còn một trong hai giải đang quay
+            while (isSpinningG8 || isSpinningGDB || isSpinningG7 || isSpinningG61 ||isSpinningG62||isSpinningG63 || isSpinningG5 ||isSpinningG41
             {
                 if (lb == kqg8 && isSpinningG8)
                 {
